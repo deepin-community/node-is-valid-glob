@@ -1,0 +1,25 @@
+Source: node-is-valid-glob
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends:
+ debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+Standards-Version: 4.6.0
+Homepage: https://github.com/jonschlinkert/is-valid-glob
+Vcs-Git: https://salsa.debian.org/js-team/node-is-valid-glob.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-is-valid-glob
+Rules-Requires-Root: no
+
+Package: node-is-valid-glob
+Architecture: all
+Depends:
+ ${misc:Depends}
+Description: Return true if a value is a valid glob pattern or patterns
+ This really just checks to make sure that a pattern is either a string or
+ array, and if it's an array it's either empty or consists of only strings.
+ .
+ Node.js is an event-based server-side JavaScript engine.

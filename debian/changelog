@@ -1,0 +1,50 @@
+node-is-valid-glob (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 01:50:10 +0100
+
+node-is-valid-glob (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful tests
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Fix copyright
+  * Switch test and install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 19 Nov 2019 21:45:04 +0100
+
+node-is-valid-glob (1.0.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.0
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Change section to javascript
+  * Enable nocheck build profile
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 29 Oct 2018 12:56:16 +0530
+
+node-is-valid-glob (0.3.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #845221)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 21 Nov 2016 21:58:20 +0530

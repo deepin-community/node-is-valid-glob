@@ -1,3 +1,18 @@
+node-is-valid-glob (1.0.0-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 01 Dec 2022 11:42:37 +0000
+
+node-is-valid-glob (1.0.0-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-is-valid-glob: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 14:55:34 +0000
+
 node-is-valid-glob (1.0.0-3) unstable; urgency=medium
 
   * Team upload
